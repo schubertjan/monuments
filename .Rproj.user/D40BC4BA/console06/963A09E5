@@ -35,4 +35,301 @@ numents/.git/[0K
 [0K[?25h[?25l
 [0;32mSchubertJ@KTPRGL0361 [0;35m [0;33m~/Documents/gi[0Kt
 hub/monuments[0;36m (master)[0m[0K
-$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF[0K[?25l
+in .Rproj.user/D40BC4BA/sources/prop[0K/
+8780F5DB.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+warning: LF will be replaced by CRLF[0K
+in .Rproj.user/D40BC4BA/sources/prop[0K/
+INDEX.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF[0K[?25l
+in .Rproj.user/D40BC4BA/sources/s-32[0KE
+089B1/4501C791.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+warning: LF will be replaced by CRLF[0K
+in .Rproj.user/D40BC4BA/sources/s-32[0KE
+089B1/4501C791-contents.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF[0K[?25l
+in .Rproj.user/D40BC4BA/sources/s-32[0KE
+089B1/8DFED949-contents.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+warning: LF will be replaced by CRLF[0K
+in .Rproj.user/shared/notebooks/CE3F[0K7
+E69-monuments_analysis/1/s/csetup_ch[0Ku
+nk/000002.csv.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF[0K[?25l
+in .Rproj.user/shared/notebooks/CE3F[0K7
+E69-monuments_analysis/1/s/lib/htmlw[0Ki
+dgets-0.9/htmlwidgets.js.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+[0K[?25hwarning: LF will be replaced by CRLF[0K[?25l
+in .Rproj.user/shared/notebooks/path[0Ks
+.[0K
+The file will have its original line[0K
+endings in your working directory[0K
+[0K[?25h[?25l
+[0;32mSchubertJ@KTPRGL0361 [0;35m [0;33m~/Documents/gi[0Kt
+hub/monuments[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hi[0Kn[0Ki[0Kt[0K"[0K[?25l
+[0K[?25h[master (root-commit) 5dcfef0] init[0K[?25l
+ 60 files changed, 7167 insertions(+[0K)
+[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/console06/963A09E5[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/console06/INDEX001[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/prop/8780F5DB[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/prop/INDEX[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/s-32E089B1/4501C791[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/s-32E089B1/4501C791-cont[0Ke
+nts[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/s-32E089B1/6C981911-cont[0Ke
+nts[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/s-32E089B1/8DFED949-cont[0Ke
+nts[0K
+ create mode 100644 .Rproj.user/D40B[0KC
+4BA/sources/s-32E089B1/lock_file[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/D40BC4BA32E089B1/chunks.json[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/chunks.json[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/csetup_chunk/000002.csv[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/font-aw[0Ke
+some.min.css[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/fonts/F[0Ko
+ntAwesome.otf[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/fonts/f[0Ko
+ntawesome-webfont.eot[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/fonts/f[0Ko
+ntawesome-webfont.svg[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/fonts/f[0Ko
+ntawesome-webfont.ttf[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/fonts/f[0Ko
+ntawesome-webfont.woff[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/fontawesome-4.5.0/fonts/f[0Ko
+ntawesome-webfont.woff2[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highchart-binding-0.5.0/h[0Ki
+ghchart.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/css/moti[0Ko
+n.css[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/custom/r[0Ke
+set.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/custom/s[0Ky
+mbols-extra.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/custom/t[0Ke
+xt-symbols.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/highchar[0Kt
+s-3d.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/highchar[0Kt
+s-more.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/highchar[0Kt
+s.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/highstoc[0Kk
+.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Ka
+ccessibility.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Ka
+nnotations.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kb
+oost.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kb
+roken-axis.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kc
+anvas-tools.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kd
+ata.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kd
+rilldown.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Ke
+xporting.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kf
+unnel.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kh
+eatmap.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Km
+ap.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kn
+o-data-to-display.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Ko
+ffline-exporting.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Ks
+olid-gauge.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/modules/[0Kt
+reemap.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Ka
+nnotations.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Kd
+raggable-legend.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Kd
+raggable-points.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Ke
+xport-csv.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Kg
+rouped-categories.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Km
+otion.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Kp
+attern-fill-v2.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/highcharts-5.0.6/plugins/[0Kt
+ooltip-delay.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/htmlwdgtgrid-1/htmlwdgtgr[0Ki
+d.css[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/htmlwidgets-0.9/htmlwidge[0Kt
+s.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/jquery-1.11.1/jquery.min.[0Kj
+s[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/CE3F7E69-monuments_analy[0Ks
+is/1/s/lib/proj4js-2.3.15/proj4.js[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/patch-chunk-names[0K
+ create mode 100644 .Rproj.user/shar[0Ke
+d/notebooks/paths[0K
+ create mode 100644 monuments.Rproj[0K
+ create mode 100644 monuments_analys[0Ki
+s.Rmd[0K
+ create mode 100644 monuments_analys[0Ki
+s.html[0K
+[0K[?25h[?25l
+[0;32mSchubertJ@KTPRGL0361 [0;35m [0;33m~/Documents/gi[0Kt
+hub/monuments[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[14G[?25l$ git remote a[0K[?25hd[0Kd[0K[18G[?25l$ git remote add o[0K[?25hr[0Ki[0Kgi[0Kn[0K[25G[?25l$ git remote add origin "[0K[?25hh[0Kt[0Kt[0Kp[0Ks[0K:[0K/[0K/[0Kg[0Ki[0Kt[0K[?25l
+[0K[?25hh[0Ku[0Kb[0K.[0Kc[0Ko[0Km[0K/[0Ks[0Kc[0Kh[0Ku[0Kb[0Ke[0Kr[0Kt[0Kj[0Ka[0Kn[0K/[0Km[0Ko[0Kn[0Ku[0Km[0Ke[0Kn[0Kt[0Ks[0K.[0Kg[0Ki[0Kt[0K[33G[31G[30G[28G[27G[26G[25G[24G[23G[22G[21G[20G[19G[18G[17G[16G[15G[14G[13G[12G[11G[10G[8G[7G[6G[5G[4G[3G[2G[1G[?25l[1A[36G[?25h[35G[34G[33G[32G[31G[30G[29G[28G[27G[26G[?25l$ git remote add origin https://gith[0K
+ub.com/schubertjan/monuments.git[0K[1A[25G[?25h[26G[27G[28G[29G[30G[31G[32G[33G[34G[35G[36G[?25l
+[?25h[2G[3G[5G[6G[7G[8G[9G[10G[11G[12G[13G[14G[15G[16G[17G[18G[19G[20G[21G[22G[23G[24G[25G[27G[29G[30G[31G[32G[33G[?25l
+[0K[?25h[?25l
+[0;32mSchubertJ@KTPRGL0361 [0;35m [0;33m~/Documents/gi[0Kt
+hub/monuments[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push -[0K[?25hu[0K[15G[?25l$ git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[22G[?25l$ git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hEnumerating objects: 84, done.[0K[?25l
+Counting objects: 100% (84/84), done[0K.
+[0K
+Delta compression using up to 4 thre[0Ka
+ds[0K
+Compressing objects:  71% (52/73)[0K[1G[?25h[?25lCompressing objects:  97% (71/73)[0K[1G[?25h[?25lCompressing objects:  98% (72/73)[0K[1G[?25hCompressing objects: 100% (73/73), d[0Ko[?25l
+ne.[0K
+Writing objects:  35% (30/84)[0K[1G[?25h[?25lWriting objects:  36% (31/84)[0K[1G[?25h[?25lWriting objects:  53% (44/84)[0K[23G[?25h[?25lWriting objects:  55% (47/84)[0K[1G[?25h[?25lWriting objects:  95% (80/84)[0K[1G[?25h[?25lWriting objects:  98% (83/84)[0K[1G[?25hWriting objects: 100% (84/84), 984.0[0K0[?25l
+Writing objects: 100% (84/84), 1.77 [0KM
+iB | 2.20 MiB/s, done.[0K
+Total 84 (delta 1), reused 0 (delta [0K0
+)[0K
+[0K[?25hremote: Resolving deltas:   0% (0/1)[0K[?25l
+remote: Resolving deltas: 100% (1/1)[0K
+remote: Resolving deltas: 100% (1/1)[0K,
+ done.[0K
+[0K[?25hTo https://github.com/schubertjan/mo[0Kn[?25l
+uments.git[0K
+ * [new branch]      master -> maste[0Kr
+[0K
+[0K[?25hBranch 'master' set up to track remo[0Kt[?25l
+e branch 'master' from 'origin'.[0K
+[0K[?25h[?25l
+[0;32mSchubertJ@KTPRGL0361 [0;35m [0;33m~/Documents/gi[0Kt
+hub/monuments[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git push -u origin master[0K[?25h[?25l$ git remote add origin https://github.com/schubertjan/monuments.git[0K[?25h[?25l$ git commit -m "init"[0K[?25h[?25l$ git add -A[0K[?25h[?25l
+[0K[?25h
