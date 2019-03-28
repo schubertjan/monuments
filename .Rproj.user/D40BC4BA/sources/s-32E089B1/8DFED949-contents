@@ -1,0 +1,94 @@
+library(rvest)
+library(highcharter)
+library(DT)
+
+clean_names <- function(x) {
+  y <- sub("\\(.*", "", x)
+  z <- sub("\\s+$", "", y)
+  tolower(iconv(z,from="UTF-8",to="ASCII//TRANSLIT"))
+}
+replace_NA <- function(x) {
+  ifelse(is.na(x),0,x)
+}
+wins <- function(x) {
+  ifelse(x == 0,FALSE,TRUE)
+}
+create_NA <- function(x) {
+  ifelse(x == "not contested", NA, x)
+} 
+
+urlPath <- "https://en.wikipedia.org/wiki/Cycling_monument"
+monuments <- read_html(urlPath)
+monuments <- monuments %>%
+  html_nodes(".wikitable") %>%
+  html_table(fill = TRUE)
+
+## Proportion of times someone won one 
+monuments_complete <- monuments[[1]]
+monuments_complete <- monuments_complete[- c(nrow(monuments_complete), nrow(monuments_complete) -1), ]
+monuments_complete[, -1] <- apply(monuments_complete[, -1], 2, clean_names)
+monuments_complete[, -1] <- apply(monuments_complete[, -1], 2, create_NA)
+
+wins_matrix <- matrix(NA,ncol = 5, nrow = 5, dimnames = list(names(monuments_complete)[-1],
+                                                             names(monuments_complete)[-1]))
+for (j in 1:ncol(wins_matrix)) {
+  for(i in 1:ncol(wins_matrix)){
+    indx <- is.na(monuments_complete[, c(i+1)])
+    x <- monuments_complete[!indx, c(i+1)]
+    y <- monuments_complete[, c(j+1)]
+    n <- sum(x %in% y)
+    wins_matrix[i,j] <- n
+  }
+}
+
+wins_procent <- round(wins_matrix/diag(wins_matrix) * 100, 0)
+hchart(wins_procent) %>%
+  hc_plotOptions(
+    series = list(
+      boderWidth = 0,
+      dataLabels = list(enabled = TRUE))) %>%
+  hc_subtitle(text = "Percentage Of Times a Rider Won Monument A (row) and Monument B (column)")
+
+
+## Proportion of people who won XX and also won
+uniq_names <- sort(unique(c(monuments_complete[, 2],
+                            monuments_complete[, 3],
+                            monuments_complete[, 4],
+                            monuments_complete[, 5],
+                            monuments_complete[, 6])))
+monuments_summary <- matrix(NA, 
+                            nrow = length(uniq_names), 
+                            ncol = 5, 
+                            dimnames = list(uniq_names,
+                                            names(monuments_complete)[-1])
+                            )
+for(j in 1:ncol(monuments_summary)){
+  for(i in 1:nrow(monuments_summary)){
+    x <- row.names(monuments_summary)[i]
+    y <- monuments_complete[, c(j+1)]
+    n <- sum(y %in% x)
+    monuments_summary[i,j] <- n
+  }
+}
+
+wins_matrix <- apply(monuments_summary, 2, wins)
+
+wins_procent <- matrix(NA,ncol = 5, nrow = 5, dimnames = list(colnames(wins_matrix),
+                                                              colnames(wins_matrix)))
+for (j in 1:ncol(wins_procent)) {
+  for(i in 1:ncol(wins_procent)){
+    t <- table(wins_matrix[,i], wins_matrix[,j])
+    wins_procent[i,j] <- round(t[2,2]/sum(t[2,]) * 100, 0)
+  }
+}
+
+hchart(wins_procent) %>%
+  hc_plotOptions(
+    series = list(
+      boderWidth = 0,
+      dataLabels = list(enabled = TRUE))) %>%
+  hc_subtitle(text = "Percentage Of People Winning Monument A (row) and Monument B (column)")
+
+total_wins <- rowSums(monuments_summary)
+
+datatable(monuments_summary[order(total_wins, decreasing = TRUE), ])
